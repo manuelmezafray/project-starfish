@@ -15,7 +15,7 @@
 }
 
 #index-gallery .gallery-img {
-    width: 100%;
+    width: 145px;
     height: 300px;
     background-repeat: no-repeat;    
     background-size: cover;
@@ -36,6 +36,8 @@
 #index-gallery .img16 {
     grid-area: img16;
     background-image: url("../img/thumbnails/img16.jpg");
+    width: 300px;
+    height: 610px;
 }
 #index-gallery .img17 {
     grid-area: img17;
@@ -48,6 +50,7 @@
 #index-gallery .img19 {
     grid-area: img19;
     background-image: url("../img/thumbnails/img19.jpg");
+    height: 610px;
 }
 #index-gallery .img20 {
     grid-area: img20;
@@ -80,6 +83,7 @@
 #index-gallery .img27 {
     grid-area: img27;
     background-image: url("../img/thumbnails/img27.jpg");
+    height: 610px;
 }
 #index-gallery .img28 {
     grid-area: img28;
