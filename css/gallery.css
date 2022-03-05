@@ -6,8 +6,8 @@
     grid-template-areas: 
     "gallery-p gallery-p gallery-p gallery-p"
     "h2 h2 h2 h2"
-    "ej1 ej2 ej3 ej4"
-    "ej5 ej6 ej3 ej7"
+    "img1 img2 img3 img4"
+    "img5 img6 img3 img7"
     ;
 }
 
@@ -31,34 +31,34 @@
 }
 
 
-#index-gallery .ej1 {
-    grid-area: ej1;
-    background-image: url("../img/thumbnails/ej1t.jpg");
+#index-gallery .img1 {
+    grid-area: img1;
+    background-image: url("../img/thumbnails/img1.jpg");
 }
-#index-gallery .ej2 {
-    grid-area: ej2;
-    background-image: url("../img/thumbnails/ej2t.jpg");
+#index-gallery .img2 {
+    grid-area: img2;
+    background-image: url("../img/thumbnails/img2.jpg");
 }
-#index-gallery .ej3 { 
-    grid-area: ej3;
-    background-image: url("../img/thumbnails/ej3t.jpg");
+#index-gallery .img3 { 
+    grid-area: img3;
+    background-image: url("../img/thumbnails/img3.jpg");
     height: 610px;
 }
-#index-gallery .ej4 {
-    grid-area: ej4;
-    background-image: url("../img/thumbnails/ej4t.jpg");
+#index-gallery .img4 {
+    grid-area: img4;
+    background-image: url("../img/thumbnails/img4.jpg");
 }
-#index-gallery .ej5 {
-    grid-area: ej5;
-    background-image: url("../img/thumbnails/ej5t.jpg");
+#index-gallery .img5 {
+    grid-area: img5;
+    background-image: url("../img/thumbnails/img5.jpg");
 }
-#index-gallery .ej6 {
-    grid-area: ej6;
-    background-image: url("../img/thumbnails/ej6t.jpg");
+#index-gallery .img6 {
+    grid-area: img6;
+    background-image: url("../img/thumbnails/img6.jpg");
 }
-#index-gallery .ej7 {
-    grid-area: ej7;
-    background-image: url("../img/thumbnails/ej7t.jpg");
+#index-gallery .img7 {
+    grid-area: img7;
+    background-image: url("../img/thumbnails/img7.jpg");
 }
 
 /* Titulos Galería*/
@@ -66,7 +66,7 @@
 .gallery-img div {
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: #000;
     opacity: 0;
     display: flex;
     justify-content: center;
@@ -85,4 +85,24 @@
 .gallery-img div:hover {
     opacity: 0.8;
     transition: all ease-in-out 100ms;
+}
+
+/*Div con la imagen*/
+.img-window{
+    width: 100vw;
+    height: 100vw;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.img-window img{
+    max-height: 80vh;
+    max-width: 80vw;
 }
