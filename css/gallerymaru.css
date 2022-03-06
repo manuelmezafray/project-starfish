@@ -1,0 +1,136 @@
+#index-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "gallery-p gallery-p gallery-p gallery-p"
+    "h2 h2 h2 h2"
+   
+    ;
+}
+
+#index-gallery .gallery-img {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+/* imagenes */
+
+#index-gallery p {
+    grid-area: gallery-p;
+}
+ 
+#index-gallery h2 {
+    grid-area: gallery-h2;
+}
+
+
+#index-gallery .img1 {
+    grid-area: img31;
+    background-image: url("../img/thumbnails/img31.jpg");
+}
+#index-gallery .img32 {
+    grid-area: img32;
+    background-image: url("../img/thumbnails/img32.jpg");
+}
+#index-gallery .img33 { 
+    grid-area: img33;
+    background-image: url("../img/thumbnails/img33.jpg");
+    height: 610px;
+}
+#index-gallery .img34 {
+    grid-area: img34;
+    background-image: url("../img/thumbnails/img4.jpg");
+}
+#index-gallery .img35 {
+    grid-area: img35;
+    background-image: url("../img/thumbnails/img35.jpg");
+}
+#index-gallery .img36 {
+    grid-area: img36;
+    background-image: url("../img/thumbnails/img6.jpg");
+}
+#index-gallery .img37 {
+    grid-area: img37;
+    background-image: url("../img/thumbnails/img37.jpg");
+}
+#index-gallery .img1 {
+    grid-area: img31;
+    background-image: url("../img/thumbnails/img31.jpg");
+}
+#index-gallery .img32 {
+    grid-area: img32;
+    background-image: url("../img/thumbnails/img32.jpg");
+}
+#index-gallery .img33 { 
+    grid-area: img33;
+    background-image: url("../img/thumbnails/img33.jpg");
+    height: 610px;
+}
+#index-gallery .img34 {
+    grid-area: img34;
+    background-image: url("../img/thumbnails/img4.jpg");
+}
+#index-gallery .img35 {
+    grid-area: img35;
+    background-image: url("../img/thumbnails/img35.jpg");
+}
+#index-gallery .img36 {
+    grid-area: img36;
+    background-image: url("../img/thumbnails/img6.jpg");
+}
+#index-gallery .img37 {
+    grid-area: img37;
+    background-image: url("../img/thumbnails/img37.jpg");
+}
+
+/* Titulos Galería*/
+
+.gallery-img div {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gallery-img a {
+     font-size: 18px;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+
+}
+
+.gallery-img div:hover {
+    opacity: 0.8;
+    transition: all ease-in-out 100ms;
+}
+
+/*Div con la imagen*/
+.img-window{
+    width: 100vw;
+    height: 100vw;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.img-window img{
+    max-height: 80vh;
+    max-width: 80vw;
+}
