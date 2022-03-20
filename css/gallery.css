@@ -85,7 +85,7 @@
 /*Div con la imagen*/
 .img-window{
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     background-color: #000;
     position: fixed;
     top: 0;
