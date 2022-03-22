@@ -1,13 +1,12 @@
 #index-gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
     grid-template-areas: 
-    "gallery-p gallery-p gallery-p gallery-p"
-    "h2 h2 h2 h2"
-    "img1 img2 img3 img4"
-    "img5 img6 img3 img7"
+    "img1 img2 img3 img4 img5"
+    "img6 img7 img8 img9 img10"
+    
     ;
 }
 
@@ -37,8 +36,7 @@
 #index-gallery .img3 { 
     grid-area: img3;
     background-image: url("../img/thumbnails/img3.jpg");
-    height: 610px;
-}
+ }
 #index-gallery .img4 {
     grid-area: img4;
     background-image: url("../img/thumbnails/img4.jpg");
@@ -137,18 +135,4 @@
 
 .img-btn-prev:hover {
     opacity: 0.8;
-}
-
-.mo {
-    text-align: center;
-}
-
-.explicacion {
-    border: 1px black;
-    background-color: rgba(0, 0, 0, 0.2);
-    line-height: 30px;
-    padding-top: 30vh;
-    padding-left: 30vw;
-    padding-right: 30vw;
-    padding-bottom: 30vh;
 }
