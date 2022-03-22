@@ -6,7 +6,7 @@
     grid-template-areas: 
     "img1 img2 img3 img4 img5"
     "img6 img7 img8 img9 img10"
-    
+    "img11 img12 img13 img14 img15"
     ;
 }
 
@@ -20,10 +20,6 @@
 }
 
 /* imagenes */
-
-#index-gallery p {
-    grid-area: gallery-p;
-}
  
 #index-gallery .img1 {
     grid-area: img1;
@@ -52,6 +48,38 @@
 #index-gallery .img7 {
     grid-area: img7;
     background-image: url("../img/thumbnails/img7.jpg");
+}
+#index-gallery .img8 {
+    grid-area: img8;
+    background-image: url("../img/thumbnails/img8.jpg");
+}
+#index-gallery .img9 {
+    grid-area: img9;
+    background-image: url("../img/thumbnails/img9.jpg");
+}
+#index-gallery .img10 { 
+    grid-area: img10;
+    background-image: url("../img/thumbnails/img10.jpg");
+ }
+#index-gallery .img11 {
+    grid-area: img11;
+    background-image: url("../img/thumbnails/img11.jpg");
+}
+#index-gallery .img12 {
+    grid-area: img12;
+    background-image: url("../img/thumbnails/img12.jpg");
+}
+#index-gallery .img13 {
+    grid-area: img13;
+    background-image: url("../img/thumbnails/img13.jpg");
+}
+#index-gallery .img14 {
+    grid-area: img14;
+    background-image: url("../img/thumbnails/img14.jpg");
+}
+#index-gallery .img15 {
+    grid-area: img15;
+    background-image: url("../img/thumbnails/img15.jpg");
 }
 
 /* Titulos Galería*/
