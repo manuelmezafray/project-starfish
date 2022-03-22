@@ -11,7 +11,7 @@ if (galleryImages) {
             let setNewImgUrl = getImgUrlPos[1].replace('")', ' ');
 
             /* alert(setNewImgUrl)*/
-
+            
             getLatestOpenedImg = index + 1
 
             let container = document.body;
